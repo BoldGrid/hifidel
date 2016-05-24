@@ -4,6 +4,7 @@
 .palette-primary {
 	background: $palette-primary_4;
 	color: $text-contrast-palette-primary_4;
+
 	/*-----------------------------------------------
 	## 1
 	-----------------------------------------------*/
@@ -15,18 +16,20 @@
 	h5,
 	h6,
 	.entry-title,
+	.navbar-default .navbar-nav > li > a:hover, 
+	.navbar-default .navbar-nav > li > a:focus,
 	.navbar-default .navbar-nav > .active > a, 
 	.navbar-default .navbar-nav > .active > a:hover, 
-	.navbar-default .navbar-nav > .active > a:focus,
-	.navbar-default .navbar-nav > li > a:hover, 
-	.navbar-default .navbar-nav > li > a:focus {
+	.navbar-default .navbar-nav > .active > a:focus, {
 		color: $palette-primary_1;
 	}
+	hr:after,
 	.square-primary,
+	.secondary-menu,
 	.mod-divider-accent {
 		background: $palette-primary_1;
 	}
-	.mod-alpha h3 {
+	.mod-alpha h4 {
 		background:	$palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -42,32 +45,38 @@
 	## 2
 	-----------------------------------------------*/
 	.button-primary,
+	.site-footer,
 	.form-submit .submit,
 	input[type="submit"] {
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}
-	.site-footer,
-	.secondary-menu {
+	hr,
+	.wc-gallery .gallery-caption .leader-button button {
 		background: $palette-primary_2;
 	}
-	.secondary-menu li a,
-	.site-footer,
-	.site-footer h2,
-	.site-footer h3,
-	.site-footer p,
 	.site-info,
 	.site-info a,
 	.attribution,
 	.attribution a,
+	.site-footer h2,
+	.site-footer h3,
+	.site-footer p,
 	.site-footer a,
 	.site-footer a:hover,
-	.site-footer a:focus {
+	.site-footer a:focus,
+	.secondary-menu li a,
+	.wc-gallery .gallery-caption p,
+	.wc-gallery .gallery-caption .leader-button {
 		color: $text-contrast-palette-primary_2;
 	}
+	.mod-alpha p,
 	.mod-alpha-2 {
 		border-right: 5px solid $palette-primary_2;
 		border-bottom: 5px solid $palette-primary_2;
+	}
+	.mod-divider {
+		border-top: 2px solid #333;
 	}
 
 	/*-----------------------------------------------
@@ -84,9 +93,14 @@
 	hr {
 		border-top: 1px solid $palette-primary_3;
 	}
+	.widget-area {
+	    border: 1px solid $palette-primary_3;
+	}
+	.entry-title span,
+	.gridblock li:before,
 	.square-secondary,
-	.mod-alpha-1 h3:before,
-	.entry-title span {
+	.mod-alpha h4:before,
+	.mod-alpha-1 h4:before {
 		background: $palette-primary_3;
 	}
 	.menu-social li a,
@@ -97,30 +111,46 @@
 	/*-----------------------------------------------
 	## 4
 	-----------------------------------------------*/
+	h2,
+	h3,
+	.home-h2,
 	.site-title a,
 	.site-description,
-	#secondary-menu .current_page_item a[href],
-	.footer-center-menu .current_page_item a[href],
-	.navbar-default .navbar-nav > li > a,
-	.home-h2,
 	.testimonial-block,
 	.mod-blockquote p,
-	h2,
-	h3 {
+	.navbar-default .navbar-nav > li > a,
+	#secondary-menu .current_page_item a[href],
+	.footer-center-menu .current_page_item a[href] {
 		color: $text-contrast-palette-primary_4;
 	}
-
+	&.disabled-footer .site-footer,
+	&.disabled-footer .site-footer a {
+		background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+	a:hover,
+	a:focus,
+	#footer-widget-area h2,
+	#footer-widget-area h3,
+	#footer-widget-area p,
+	#footer-widget-area a:hover {
+		color: $text-contrast-palette-primary_4;
+	}
 	/*-----------------------------------------------
 	## 1 - Button & Social Hover
 	-----------------------------------------------*/
+	input[type="submit"]:hover,
+	input[type="submit"]:focus,
+	input[type="submit"]:active,
 	.button-primary:hover, 
 	.button-primary:focus,
+	.button-primary:active,
 	.button-secondary:hover, 
 	.button-secondary:focus,
+	.button-secondary:active,
 	.form-submit .submit:hover,
 	.form-submit .submit:focus,
-	input[type="submit"]:hover,
-	input[type="submit"]:focus {
+	.form-submit .submit:active {
 		background:	$palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -128,6 +158,7 @@
 	.menu-social li a:focus,
 	.secondary-menu li.menu-social a:hover,
 	.secondary-menu li.menu-social a:focus,
+	.tertiary-menu li:after,
 	.tertiary-menu li.menu-social a:hover,
 	.tertiary-menu li.menu-social a:focus,
 	.footer-center-menu li.menu-social a:hover,
@@ -205,6 +236,24 @@
 	select,
 	textarea {
 		color: #333;
+	}
+	/*-----------------------------------------------
+	# Et Cetera
+	-----------------------------------------------*/
+	.mod-blockquote p {
+		color: #888;
+	}
+	.woocommerce #respond input#submit, 
+	.woocommerce a.button,
+	.woocommerce button.button, 
+	.woocommerce input.button,
+	.woocommerce p.buttons a.button {
+	    background-color: #a46497;
+	    color: #fff;
+	}
+	.woocommerce p.buttons a.button:hover {
+		background-color: #dad8da;
+	    color: #515151;
 	}	
 }
 

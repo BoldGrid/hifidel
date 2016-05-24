@@ -56,6 +56,18 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .entry-content {
 	padding-bottom: 20px;
 }
+
+/* lg */
+@media (min-width: 1200px) {
+	/* Restrict container width */
+	.container {
+		width: 970px;
+	}
+}
+
+/*-----------------------------------------------
+## Typography
+-----------------------------------------------*/
 .entry-content ul {
 	line-height: 28px;	
 }
@@ -65,6 +77,134 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .p-button-primary,
 .p-button-secondary {
 	text-align: center;
+}
+h2 {
+	font-weight: 400;
+}
+h3 {
+	line-height: 26px;
+}
+.entry-content ul, 
+.entry-content ol {
+	line-height: 28px;
+}
+.entry-title {
+	font-weight: 400;
+	text-align: center;
+}
+.heading p {
+	text-align: center;	
+}
+.icon i.fa {
+	text-align: center;
+}
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+.button-primary:hover,
+.button-primary:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.form-submit .submit:hover,
+.form-submit .submit:focus {
+	text-decoration: none;
+}
+.button-secondary:hover,
+.button-secondary:active {
+	text-decoration: none;
+}
+.p-button-primary,
+.p-button-secondary {
+	white-space: nowrap;
+}
+.site-title {
+	font-weight: normal;
+}
+.site-description {
+	font-weight: 300;
+}
+#site-navigation {
+	font-weight: 400;
+}
+.secondary-menu {
+	text-align: center;	
+}
+.tertiary-menu {
+	text-align: right;	
+}
+.menu-social li a {
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
+.mod-blockquote p {
+	line-height: 48px;
+}
+.mod-alpha h3,
+.mod-alpha-1 h3 {
+	font-weight: 600;
+}
+.mod-alpha p,
+.mod-alpha-2 {
+	font-weight: 600;
+}
+.wc-gallery .gallery-caption p {
+  	font-weight: 300;
+  	text-transform: uppercase;
+}
+.wc-gallery .gallery-caption .leader-button {
+  	font-weight: 600;
+}
+#footer-widget-area #wp-calendar.table > thead > tr > th, 
+#footer-widget-area #wp-calendar.table > tbody > tr > th, 
+#footer-widget-area #wp-calendar.table > tfoot > tr > th, 
+#footer-widget-area #wp-calendar.table > thead > tr > td, 
+#footer-widget-area #wp-calendar.table > tbody > tr > td, 
+#footer-widget-area #wp-calendar.table > tfoot > tr > td,
+#header-widget-area #wp-calendar.table > thead > tr > th, 
+#header-widget-area #wp-calendar.table > tbody > tr > th, 
+#header-widget-area #wp-calendar.table > tfoot > tr > th, 
+#header-widget-area #wp-calendar.table > thead > tr > td, 
+#header-widget-area #wp-calendar.table > tbody > tr > td, 
+#header-widget-area #wp-calendar.table > tfoot > tr > td {
+	font-size: 8px;	
+}
+#footer-widget-area {
+	text-align: left;	
+}
+.woocommerce p.buttons a.button:hover {
+    text-decoration: none;
+}
+.site-footer {
+  	font-weight: 600;
+	text-align: center;
+}
+.site-footer a {
+	text-decoration: underline;
+}
+.site-footer a:hover,
+.site-footer a:focus {
+	text-decoration: none;
+}
+
+/* xs */
+.site-title,
+.site-description,
+.social-media,
+.navbar-default .navbar-nav > li > a,
+.xs-center {
+	text-align: center;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.site-title,
+	.site-description,
+	.social-media,
+	.navbar-default .navbar-nav > li > a,
+	.xs-center {
+		text-align: left;
+	}
 }
 
 /* md */
@@ -78,39 +218,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	}
 }
 
-/* lg */
-@media (min-width: 1200px) {
-	/* Restrict container width */
-	.container {
-		width: 970px;
-	}
-}
-
-/*-----------------------------------------------
-## Typography
------------------------------------------------*/
-h2 {
-	color: #333;
-	font-family: 'Six Caps';
-	font-size: 70px;
-	font-weight: 400;
-}
-h3 {
-	color: #333;
-	font-family: 'Open Sans';
-	font-size: 18px;
-	line-height: 26px;
-}
-h4 {
-	color: #f67a1e;
-}
-.entry-content ul, 
-.entry-content ol {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	line-height: 28px;
-}
-
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
@@ -119,12 +226,8 @@ h4 {
 }
 .entry-title {
 	display: block;
-	font-family: 'Oswald';
-	font-size: 16px;
-	font-weight: 400;
 	margin: 60px 0;
 	position: relative;
-	text-align: center;
     z-index: 1;
 }
 .entry-title:before {
@@ -152,11 +255,7 @@ h4 {
 .heading h3 {
     margin-top: 10px;
 }
-.heading p {
-	text-align: center;	
-}
 .icon i.fa {
-	text-align: center;	
 	width: 100%;
 }
 
@@ -168,14 +267,6 @@ h4 {
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
-a {
-	color: #f67a1e;
-}
-a:hover,
-a:focus {
-	color: #333;
-	text-decoration: underline;
-}
 
 /*-----------------------------------------------
 ## Buttons
@@ -183,33 +274,13 @@ a:focus {
 .button-primary,
 input[type="submit"],
 .form-submit .submit {
-	background: #333;
 	border: none;
-	color: #fff;
 	margin-bottom: 20px;
 	margin-top: 30px;
 	padding: 8px 40px;
 }
 .button-secondary {
-	background: #ccc;
 	padding: 8px 40px;
-	color: #333;
-}
-.button-primary:hover,
-.button-primary:focus,
-input[type="submit"]:hover,
-input[type="submit"]:focus,
-.form-submit .submit:hover,
-.form-submit .submit:focus {
-	background: #f67a1e;
-	color: #fff;
-	text-decoration: none;
-}
-.button-secondary:hover,
-.button-secondary:active {
-	color: #fff;
-	background-color: #f77a1e;
-	text-decoration: none;
 }
 
 /* Positioning */
@@ -219,10 +290,9 @@ input[type="submit"]:focus,
 	margin-top: 40px;
 	padding-bottom: 5px;
 	padding-top: 5px;
-	white-space: nowrap;
 }
 .p-button-right {
-	float: right;
+	float: none;
 }
 .gridblock .p-button-secondary {
 	margin-top: -30px;
@@ -245,18 +315,19 @@ input[type="submit"]:focus,
 	.gridblock .p-button-secondary {
 		margin-top: 15px;
 	}
+	.p-button-right {
+		float: right;
+	}
 }
 
 /*-----------------------------------------------
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	background: #333;
 	border: 0;
 	height: 2px;
 }
 hr:after {
-    background-color: #f67a1e;
     content: '';
     display: block;
     height: 10px;
@@ -269,41 +340,17 @@ hr:after {
 /*------------------------------------------------------------------------
 # Header
 ------------------------------------------------------------------------*/
-.site-title {
-	font-weight: normal;
-}
-.site-title a {
-	color: #333;
-}
 .site-description {
-	color: #333;
-	font-family: 'Oswald';
-	font-size: 20px;
-	font-weight: 300;
 	margin-top: -30px;
 }
 
 /* xs */
-.site-title,
-.site-description,
-.social-media,
-.navbar-default .navbar-nav > li > a,
-.xs-center {
-	text-align: center;
-}
 .xs-center {
 	margin-top: 15px;
 }
 
 /* sm */
 @media (min-width: 768px) {
-	.site-title,
-	.site-description,
-	.social-media,
-	.navbar-default .navbar-nav > li > a,
-	.xs-center {
-		text-align: left;
-	}
 	.xs-center {
 		margin-top: 0;
 	}
@@ -316,14 +363,6 @@ hr:after {
 /*-----------------------------------------------
 ## Main Menu
 -----------------------------------------------*/
-/* Typography */
-#site-navigation {
-	font-family: 'Oswald';
-	font-size: 14px;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
 /* Nav Reset */
 .navbar {
 	background: none;
@@ -337,16 +376,10 @@ hr:after {
 	margin-bottom: 0;
 }
 
-/* Links */
-.navbar-default .navbar-nav > li > a {
-    color: #333;
-}
-
 /* Hover */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;
-	color: #f67a1e;
 }
 
 /* Active */
@@ -354,7 +387,6 @@ hr:after {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   	background: none;
-  	color: #f67a1e;
 }
 
 /* sm */
@@ -374,43 +406,23 @@ hr:after {
 /*-----------------------------------------------
 ## Other Menus
 -----------------------------------------------*/
-.secondary-menu {
-	background: #f67a1e;
-	text-align: center;	
-}
 .secondary-menu li a {
-	color: #fff;
-	font-family: 'Oswald';
 	padding: 0 10px;
-    text-transform: uppercase;	
 }
 .secondary-menu li:after {
 	content: "";	
 }
-.secondary-menu li.menu-social a:hover {
-	color: #333;	
-}
 .tertiary-menu {
-	text-align: right;	
 	background: none;
 }
 .tertiary-menu li a {
-	color: #f67a1e;
-	font-size: 13px;
-	font-family: 'Open Sans';	
 	padding: 0 8px;
-}
-.tertiary-menu li:after {
-	color: #f67a1e;	
 }
 .tertiary-menu li:last-child a {
 	padding-right: 0;	
 }
 .tertiary-menu li:after {
 	content: "";	
-}
-.tertiary-menu li.menu-social a:hover {
-	color: #333;	
 }
 
 /*-----------------------------------------------
@@ -425,14 +437,8 @@ hr:after {
     display: inline-block;    
 }
 .menu-social li a {
-	color: #ccc;
 	display: inline-block;
-	text-align: right;
 	padding: 0 8px;
-	-webkit-font-smoothing: antialiased;
-}
-.menu-social li a:hover {
-	color: #f67a1e;
 }
 
 /* xs */
@@ -489,7 +495,6 @@ hr:after {
     padding-left: 0;
 }
 .gridblock li:before {
-    background-color: #f67a1e;
     content: '';
     display: inline-block;
     height: 4px;
@@ -552,11 +557,9 @@ hr:after {
  * Deprecated since 2015.12.21 
  */
 .mod-divider {
-	border-top: 2px solid #333;
 	margin-top: 50px;
 }
 .mod-divider-accent {
-	background: #f67a1e;
 	height: 11px;
 	margin: -6px auto 40px;
 	width: 11px;
@@ -564,23 +567,14 @@ hr:after {
 
 /* Squares */
 .square-primary {
-	background: #f67a1e;
 	height: 80px;
 }
 .square-secondary {
-	background: #ccc;
 	height: 40px;
 }
 
 /* Blockquotes */
-.mod-blockquote {
-	border-left: 3px solid #ccc;
-}
 .mod-blockquote p {
-	color: #888;
-	font-family: "Six Caps";
-	font-size: 48px;
-	line-height: 48px;
 	padding-left: 15px;
 }
 
@@ -590,35 +584,24 @@ hr:after {
 /* Mod-Alpha-1 & Mod-Alpha-2
  * Deprecated since 2015.12.21 
  */
-.mod-alpha h3,
-.mod-alpha-1 h3 {
-	background: #f67a1e;
-	color: #fff;
+.mod-alpha h4,
+.mod-alpha-1 h4 {
 	float: right;
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-weight: 600;
 	margin: 40px 5px 0;
 	padding: 15px 40px;
 }
-.mod-alpha h3:before,
-.mod-alpha-1 h3:before {
-	background: #ccc;
+.mod-alpha h4:before,
+.mod-alpha-1 h4:before {
 	content: "";
 	height: 22px;
 	margin-left: -62px;
-    margin-top: 19px;
+    margin-top: 10px;
     position: absolute;
 	width: 22px;
 }
 .mod-alpha p,
 .mod-alpha-2 {
-	border-right: 5px solid #333;
-	border-bottom: 5px solid #333;
 	clear: both;
-	font-family: 'Open Sans';
-	font-size: 12px;
-	font-weight: 600;
 	padding: 2.5em;
 }
 
@@ -639,22 +622,7 @@ hr:after {
     position: absolute;
     top: 95px;
 }
-.wc-gallery .gallery-caption p {
-    color: #fff;
- 	font-family: 'Oswald';
- 	font-size: 60px;
-  	font-weight: 300;
-  	line-height: 1;
-  	text-transform: uppercase;
-}
-.wc-gallery .gallery-caption .leader-button {
-	color: #fff;
-	font-family: 'Open Sans';
-	font-size: 13px;
-  	font-weight: 600;
-}
 .wc-gallery .gallery-caption .leader-button button {
-	background: #333;
 	border: none;
 	padding: 10px 45px 15px;
 }
@@ -669,51 +637,15 @@ hr:after {
 .entry-meta {
 	margin-top: 20px;
 }
-.widget-title,
-.page-title {
-    font-family: 'Oswald';
-    font-size: 18px;
-    text-transform: uppercase;
-}
 .widget-area {
-    border: 1px solid #ccc;
     padding: 25px;
 	margin-top: 25px;
 }
 
 /* Comments */
-.comment-reply-title,
-.comments-title {
-    font-family: 'Oswald';
-    font-size: 24px;
-    text-transform: uppercase;
-}
 .comment-form-comment label {
     float: left;
     padding-right: 15px;
-}
-#footer-widget-area #wp-calendar.table > thead > tr > th, 
-#footer-widget-area #wp-calendar.table > tbody > tr > th, 
-#footer-widget-area #wp-calendar.table > tfoot > tr > th, 
-#footer-widget-area #wp-calendar.table > thead > tr > td, 
-#footer-widget-area #wp-calendar.table > tbody > tr > td, 
-#footer-widget-area #wp-calendar.table > tfoot > tr > td,
-#header-widget-area #wp-calendar.table > thead > tr > th, 
-#header-widget-area #wp-calendar.table > tbody > tr > th, 
-#header-widget-area #wp-calendar.table > tfoot > tr > th, 
-#header-widget-area #wp-calendar.table > thead > tr > td, 
-#header-widget-area #wp-calendar.table > tbody > tr > td, 
-#header-widget-area #wp-calendar.table > tfoot > tr > td {
-	font-size: 8px;	
-}
-#footer-widget-area {
-	text-align: left;	
-}
-#footer-widget-area h2,
-#footer-widget-area h3,
-#footer-widget-area p,
-#footer-widget-area a:hover {
-	color: #333;	
 }
 
 /*------------------------------------------------------------------------
@@ -723,55 +655,19 @@ hr:after {
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-.woocommerce #respond input#submit, 
-.woocommerce a.button,
-.woocommerce button.button, 
-.woocommerce input.button,
-.woocommerce p.buttons a.button {
-    background-color: #a46497;
-    color: #fff;
-}
 .woocommerce p.buttons a.button:hover {
-	background-color: #dad8da;
     background-image: none;
-    color: #515151;
-    text-decoration: none;
 }
 
 /*------------------------------------------------------------------------
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	background: #333;
-	font-family: 'Open Sans';
-	font-size: 13px;
-  	font-weight: 600;
 	padding-bottom: 26px;
-	text-align: center;
 }
-.site-footer h2,
-.site-footer h3,
-.site-footer p	{
-	color: #fff;	
-}
-
 .site-info,
 .site-info a {
-	color: #fff;
 	padding: 25px 0 0;
-}
-.attribution,
-.attribution a {
-	color: #fff;
-}
-.site-footer a {
-	color: #fff;
-	text-decoration: underline;
-}
-.site-footer a:hover,
-.site-footer a:focus {
-	color: #fff;
-	text-decoration: none;
 }
 
 /* Menu Location */
@@ -781,14 +677,10 @@ hr:after {
 .footer-center-menu li.menu-social a {
 	padding: 0 8px;	
 }
-.footer-center-menu li.menu-social a:hover {
-	color: #f67a1e;	
-}
 .footer-center-items {
 	padding: 0;	
 }
 .disabled-footer .site-footer {
-	background: #333;
 	height: auto;
 	padding: 15px 0;
 }

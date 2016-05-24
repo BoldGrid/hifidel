@@ -1,0 +1,214 @@
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+	background: $palette-primary_4;
+	color: $text-contrast-palette-primary_4;
+	/*-----------------------------------------------
+	## 1
+	-----------------------------------------------*/
+	a,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.entry-title,
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus,
+	.navbar-default .navbar-nav > li > a:hover, 
+	.navbar-default .navbar-nav > li > a:focus {
+		color: $palette-primary_1;
+	}
+	.square-primary,
+	.mod-divider-accent {
+		background: $palette-primary_1;
+	}
+	.mod-alpha h3 {
+		background:	$palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	hr::after,
+	.gridblock li::before {
+	    background-color: $palette-primary_1;
+	}
+	.mod-blockquote {
+	    border-left: 3px solid $palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## 2
+	-----------------------------------------------*/
+	.button-primary,
+	.form-submit .submit,
+	input[type="submit"] {
+		background: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
+	}
+	.site-footer,
+	.secondary-menu {
+		background: $palette-primary_2;
+	}
+	.secondary-menu li a,
+	.site-footer,
+	.site-footer h2,
+	.site-footer h3,
+	.site-footer p,
+	.site-info,
+	.site-info a,
+	.attribution,
+	.attribution a,
+	.site-footer a,
+	.site-footer a:hover,
+	.site-footer a:focus {
+		color: $text-contrast-palette-primary_2;
+	}
+	.mod-alpha-2 {
+		border-right: 5px solid $palette-primary_2;
+		border-bottom: 5px solid $palette-primary_2;
+	}
+
+	/*-----------------------------------------------
+	## 3
+	-----------------------------------------------*/
+	.button-secondary {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+	}
+	.entry-title {
+		color: $text-contrast-palette-primary_3;
+	}
+	.entry-title:before,
+	hr {
+		border-top: 1px solid $palette-primary_3;
+	}
+	.square-secondary,
+	.mod-alpha-1 h3:before,
+	.entry-title span {
+		background: $palette-primary_3;
+	}
+	.menu-social li a,
+	.tertiary-menu li a {
+		color: $palette-primary_3;	
+	}
+
+	/*-----------------------------------------------
+	## 4
+	-----------------------------------------------*/
+	.site-title a,
+	.site-description,
+	#secondary-menu .current_page_item a[href],
+	.footer-center-menu .current_page_item a[href],
+	.navbar-default .navbar-nav > li > a,
+	.home-h2,
+	.testimonial-block,
+	.mod-blockquote p,
+	h2,
+	h3 {
+		color: $text-contrast-palette-primary_4;
+	}
+
+	/*-----------------------------------------------
+	## 1 - Button & Social Hover
+	-----------------------------------------------*/
+	.button-primary:hover, 
+	.button-primary:focus,
+	.button-secondary:hover, 
+	.button-secondary:focus,
+	.form-submit .submit:hover,
+	.form-submit .submit:focus,
+	input[type="submit"]:hover,
+	input[type="submit"]:focus {
+		background:	$palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.menu-social li a:hover,
+	.menu-social li a:focus,
+	.secondary-menu li.menu-social a:hover,
+	.secondary-menu li.menu-social a:focus,
+	.tertiary-menu li.menu-social a:hover,
+	.tertiary-menu li.menu-social a:focus,
+	.footer-center-menu li.menu-social a:hover,
+	.footer-center-menu li.menu-social a:focus {
+		color: $palette-primary_1;
+	}
+    .dropdown .active, ul.dropdown-menu {
+        background: $palette-primary_1;
+        color: $text-contrast-palette-primary_1;
+    }
+    .navbar-default .navbar-nav {
+        > {
+            .current-menu-parent > a {
+                color: $palette-primary_1;
+            }
+            .active > a {
+                color: $palette-primary_1;
+                background: none;
+                &:hover, &:focus {
+                    color: $palette-primary_1;
+                    background: none;
+                }
+            }
+            li > a {
+                &:hover, &:focus {
+                    color: $palette-primary_1;
+                    background: none;
+                }
+            }
+        }
+        .open > a {
+        	background: $palette-primary_1;
+        	color: $text-contrast-palette-primary_1;
+        	&:hover, &:focus {
+        		background: $palette-primary_1;
+                color: $text-contrast-palette-primary_1;
+        	}
+        }
+        .dropdown .dropdown-menu > {
+            .active > a {
+                background: $palette-primary_1;
+                color: $text-contrast-palette-primary_1;
+                &:hover, &:focus {
+                    background: $palette-primary_1;
+                    color: $text-contrast-palette-primary_1;
+                }
+            }
+            li > a {
+                color: $text-contrast-palette-primary_1;
+                &:hover, &:focus {
+                    background: $palette-primary_2;
+                    color: $text-contrast-palette-primary_2;
+                }
+            }
+        }
+    }
+
+    #tertiary-menu .current_page_item a[href],
+    #menu-social .current_page_item a[href],
+    #tertiary-menu .menu-item a[href]:hover,
+    #menu-social .menu-item a[href]:hover,
+    #tertiary-menu .menu-item a[href]:focus,
+    #menu-social .menu-item a[href]:focus,
+    .footer-center-menu li:after {
+        color: $palette-primary_2;
+    }
+	#secondary-menu .current_page_item a[href],
+	.footer-center-menu .current_page_item a[href] {
+		color: $palette-primary_4;
+	}
+	/*-----------------------------------------------
+	## Forms
+	-----------------------------------------------*/
+	input,
+	select,
+	textarea {
+		color: #333;
+	}	
+}
+
+.palette-primary.mce-content-body {
+	background: $palette-primary_4;
+	color: $text-contrast-palette-primary_4;
+}

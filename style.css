@@ -70,7 +70,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Typography
 -----------------------------------------------*/
 .entry-content ul {
-	line-height: 28px;	
+	line-height: 28px;
 }
 .xs-center,
 .mod-img,
@@ -85,7 +85,7 @@ h2 {
 h3 {
 	line-height: 26px;
 }
-.entry-content ul, 
+.entry-content ul,
 .entry-content ol {
 	line-height: 28px;
 }
@@ -94,7 +94,7 @@ h3 {
 	text-align: center;
 }
 .heading p {
-	text-align: center;	
+	text-align: center;
 }
 .icon i.fa {
 	text-align: center;
@@ -129,10 +129,10 @@ input[type="submit"]:focus,
 	font-weight: 400;
 }
 .secondary-menu {
-	text-align: center;	
+	text-align: center;
 }
 .tertiary-menu {
-	text-align: right;	
+	text-align: right;
 }
 .menu-social li a {
 	text-align: right;
@@ -156,22 +156,22 @@ input[type="submit"]:focus,
 .wc-gallery .gallery-caption .leader-button {
   	font-weight: 600;
 }
-#footer-widget-area #wp-calendar.table > thead > tr > th, 
-#footer-widget-area #wp-calendar.table > tbody > tr > th, 
-#footer-widget-area #wp-calendar.table > tfoot > tr > th, 
-#footer-widget-area #wp-calendar.table > thead > tr > td, 
-#footer-widget-area #wp-calendar.table > tbody > tr > td, 
+#footer-widget-area #wp-calendar.table > thead > tr > th,
+#footer-widget-area #wp-calendar.table > tbody > tr > th,
+#footer-widget-area #wp-calendar.table > tfoot > tr > th,
+#footer-widget-area #wp-calendar.table > thead > tr > td,
+#footer-widget-area #wp-calendar.table > tbody > tr > td,
 #footer-widget-area #wp-calendar.table > tfoot > tr > td,
-#header-widget-area #wp-calendar.table > thead > tr > th, 
-#header-widget-area #wp-calendar.table > tbody > tr > th, 
-#header-widget-area #wp-calendar.table > tfoot > tr > th, 
-#header-widget-area #wp-calendar.table > thead > tr > td, 
-#header-widget-area #wp-calendar.table > tbody > tr > td, 
+#header-widget-area #wp-calendar.table > thead > tr > th,
+#header-widget-area #wp-calendar.table > tbody > tr > th,
+#header-widget-area #wp-calendar.table > tfoot > tr > th,
+#header-widget-area #wp-calendar.table > thead > tr > td,
+#header-widget-area #wp-calendar.table > tbody > tr > td,
 #header-widget-area #wp-calendar.table > tfoot > tr > td {
-	font-size: 8px;	
+	font-size: 8px;
 }
 #footer-widget-area {
-	text-align: left;	
+	text-align: left;
 }
 .woocommerce p.buttons a.button:hover {
     text-decoration: none;
@@ -222,8 +222,8 @@ input[type="submit"]:focus,
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-page_home .entry-title {
-    display: none;    
+.page-template-home .entry-title {
+	display: none;
 }
 .entry-title {
 	display: block;
@@ -236,14 +236,14 @@ input[type="submit"]:focus,
     content:"";
 	left: 0;
     margin: 0 auto;
-    position: absolute; 
+    position: absolute;
     right: 0;
-	top: 50%;   
+	top: 50%;
     z-index: -1;
 }
-.entry-title span { 
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
-    padding: 5px 30px; 
+.entry-title span {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    padding: 5px 30px;
 }
 .post-title-hidden .site-content {
 	margin-top: 30px;
@@ -262,7 +262,7 @@ input[type="submit"]:focus,
 
 /* Search Form */
 .form-control {
-	display: inline-block;	
+	display: inline-block;
 }
 
 /*-----------------------------------------------
@@ -411,7 +411,7 @@ hr:after {
 	padding: 0 10px;
 }
 .secondary-menu li:after {
-	content: "";	
+	content: "";
 }
 .tertiary-menu {
 	background: none;
@@ -420,10 +420,10 @@ hr:after {
 	padding: 0 8px;
 }
 .tertiary-menu li:last-child a {
-	padding-right: 0;	
+	padding-right: 0;
 }
 .tertiary-menu li:after {
-	content: "";	
+	content: "";
 }
 
 /*-----------------------------------------------
@@ -435,7 +435,7 @@ hr:after {
 }
 .menu-social ul li {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
 }
 .menu-social li a {
 	display: inline-block;
@@ -474,14 +474,14 @@ hr:after {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.gridblock h1, 
-.gridblock h2, 
-.gridblock h3, 
-.gridblock h4, 
-.gridblock h5, 
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
 .gridblock h6,
-.gridblock ol, 
-.gridblock ul, 
+.gridblock ol,
+.gridblock ul,
 .gridblock li,
 .gridblock p {
 	margin: 10px 0;
@@ -545,7 +545,7 @@ hr:after {
 .image-gallery img,
 .video-gallery img,
 .slideshow-gallery img {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 .mod-img-circle img {
 	border-radius: 50%;
@@ -555,7 +555,7 @@ hr:after {
 ## Global
 -----------------------------------------------*/
 /* Dividers
- * Deprecated since 2015.12.21 
+ * Deprecated since 2015.12.21
  */
 .mod-divider {
 	margin-top: 50px;
@@ -583,7 +583,7 @@ hr:after {
 ## Alpha
 -----------------------------------------------*/
 /* Mod-Alpha-1 & Mod-Alpha-2
- * Deprecated since 2015.12.21 
+ * Deprecated since 2015.12.21
  */
 .mod-alpha h4,
 .mod-alpha-1 h4 {
@@ -614,8 +614,8 @@ hr:after {
 ## Home
 -----------------------------------------------*/
 /* Gallery Caption */
-.wc-image-links .gallery-caption, 
-.wc-gallery-captions-showon .gallery-caption, 
+.wc-image-links .gallery-caption,
+.wc-gallery-captions-showon .gallery-caption,
 .wc-gallery-captions-onhover .gallery-caption {
     background: none;
     display: block;
@@ -673,13 +673,13 @@ hr:after {
 
 /* Menu Location */
 .footer-center-menu li.menu-social:after {
-	content: "";	
+	content: "";
 }
 .footer-center-menu li.menu-social a {
-	padding: 0 8px;	
+	padding: 0 8px;
 }
 .footer-center-items {
-	padding: 0;	
+	padding: 0;
 }
 .disabled-footer .site-footer {
 	height: auto;

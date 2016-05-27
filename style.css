@@ -493,16 +493,16 @@ hr:after {
 .gridblock li {
 	list-style-type: none;
 	margin-left: -15px;
-    padding-left: 0;
+	padding-left: 0;
 }
 .gridblock li:before {
-    content: '';
-    display: inline-block;
-    height: 4px;
-    margin-right: 8px;
-    position: relative;
-    width: 4px;
-    bottom: 3px;
+	content: '';
+	display: inline-block;
+	height: 4px;
+	margin-right: 8px;
+	position: relative;
+	width: 4px;
+	bottom: 3px;
 }
 
 /*------------------------------------------------------------------------

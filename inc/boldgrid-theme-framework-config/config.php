@@ -1,4 +1,4 @@
-<?php 
+<?php
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	/**
 	 * General Configs
@@ -76,7 +76,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		case 32: //<-- General
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
 			break;
-		
+
 		// Default Behavior
 		default:
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][0]['default'] = true;

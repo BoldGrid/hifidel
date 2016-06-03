@@ -108,7 +108,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 160;
 
 	// Gridblock H4.
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.gridblock h4' ] = array(
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.gridblock h4, .mod-alpha h3'] = array(
 		'type' => 'subheadings',
 		'round' => 'ceil',
 		'amount' => 1.25,

@@ -107,6 +107,13 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 160;
 
+	// Gridblock H4.
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.gridblock h4' ] = array(
+		'type' => 'subheadings',
+		'round' => 'ceil',
+		'amount' => 1.25,
+	);
+
 	// Fonts & Icons
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';

@@ -23,13 +23,13 @@
 	.navbar-default .navbar-nav > .active > a:focus, {
 		color: $palette-primary_1;
 	}
-	hr:after,
+	hr::after,
 	.square-primary,
 	.secondary-menu,
 	.mod-divider-accent {
 		background: $palette-primary_1;
 	}
-	.mod-alpha h4 {
+	.mod-alpha h3 {
 		background:	$palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -37,6 +37,7 @@
 	.gridblock li::before {
 	    background-color: $palette-primary_1;
 	}
+	blockquote,
 	.mod-blockquote {
 	    border-left: 3px solid $palette-primary_1;
 	}
@@ -97,10 +98,8 @@
 	    border: 1px solid $palette-primary_3;
 	}
 	.entry-title span,
-	.gridblock li:before,
-	.square-secondary,
-	.mod-alpha h4:before,
-	.mod-alpha-1 h4:before {
+	.gridblock li::before,
+	.square-secondary {
 		background: $palette-primary_3;
 	}
 	.menu-social li a,
@@ -117,6 +116,7 @@
 	.site-title a,
 	.site-description,
 	.testimonial-block,
+	blockquote p,
 	.mod-blockquote p,
 	.navbar-default .navbar-nav > li > a,
 	#secondary-menu .current_page_item a[href],
@@ -215,7 +215,6 @@
             }
         }
     }
-
     #tertiary-menu .current_page_item a[href],
     #menu-social .current_page_item a[href],
     #tertiary-menu .menu-item a[href]:hover,
@@ -229,6 +228,7 @@
 	.footer-center-menu .current_page_item a[href] {
 		color: $palette-primary_4;
 	}
+
 	/*-----------------------------------------------
 	## Forms
 	-----------------------------------------------*/
@@ -237,12 +237,10 @@
 	textarea {
 		color: #333;
 	}
+
 	/*-----------------------------------------------
 	# Et Cetera
 	-----------------------------------------------*/
-	.mod-blockquote p {
-		color: #888;
-	}
 	.woocommerce #respond input#submit, 
 	.woocommerce a.button,
 	.woocommerce button.button, 

@@ -4,8 +4,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * General Configs
 	 */
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-hifidel'; // Text domain
-	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
+	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
 
 	/**
@@ -107,14 +107,17 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 137;
 
-	// Gridblock H4.
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.gridblock h4, .mod-alpha h3'] = array(
+	// Typography Tagline Classes
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h4 alt-font';
+
+	// Typography Relationships
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.gridblock h4, .mod-alpha h3, .mod-alpha-1 h3'] = array(
 		'type' => 'subheadings',
 		'round' => 'ceil',
 		'amount' => 1.25,
 	);
 
-	// Fonts & Icons
+	// Icons
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 

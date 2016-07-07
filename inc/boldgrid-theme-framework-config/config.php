@@ -120,7 +120,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Typography Headings.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Six Caps';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 30;
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'uppercase';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'none';
 
 	// Typography Alternate Headings.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Oswald';
@@ -135,7 +135,17 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Typography Body.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_family'] = 'Open Sans';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 160;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 137;
+
+	// Typography Tagline Classes.
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h4 alt-font';
+
+	// Typography Relationships.
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.gridblock h4, .mod-alpha h3, .mod-alpha-1 h3'] = array(
+		'type' => 'subheadings',
+		'round' => 'ceil',
+		'amount' => 1.25,
+	);
 
 	// Fonts & Icons.
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';

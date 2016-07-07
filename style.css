@@ -150,11 +150,11 @@ input[type="submit"]:focus,
 	font-weight: 600;
 }
 .wc-gallery .gallery-caption p {
-  	font-weight: 300;
-  	text-transform: uppercase;
+	font-weight: 300;
+	text-transform: uppercase;
 }
 .wc-gallery .gallery-caption .leader-button {
-  	font-weight: 600;
+	font-weight: 600;
 }
 #footer-widget-area #wp-calendar.table > thead > tr > th,
 #footer-widget-area #wp-calendar.table > tbody > tr > th,
@@ -174,10 +174,10 @@ input[type="submit"]:focus,
 	text-align: left;
 }
 .woocommerce p.buttons a.button:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 .site-footer {
-  	font-weight: 600;
+	font-weight: 600;
 	text-align: center;
 }
 .site-footer a {
@@ -229,21 +229,20 @@ input[type="submit"]:focus,
 	display: block;
 	margin: 60px 0;
 	position: relative;
-    z-index: 1;
+	z-index: 1;
 }
 .entry-title:before {
 	bottom: 0;
-    content:"";
+	content:"";
 	left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
 	top: 50%;
-    z-index: -1;
+	z-index: -1;
 }
 .entry-title span {
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */
-    padding: 5px 30px;
+	padding: 5px 30px;
 }
 .post-title-hidden .site-content {
 	margin-top: 30px;
@@ -251,10 +250,10 @@ input[type="submit"]:focus,
 
 /* Headings */
 .heading {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 .heading h3 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 .icon i.fa {
 	width: 100%;
@@ -303,7 +302,7 @@ input[type="submit"],
 .button-primary,
 .button-secondary {
 	display: block;
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 /* sm */
@@ -311,7 +310,7 @@ input[type="submit"],
 	.button-primary,
 	.button-secondary {
 		display: inline;
-    	margin-top: 0;
+		margin-top: 0;
 	}
 	.gridblock .p-button-secondary {
 		margin-top: 15px;
@@ -329,13 +328,13 @@ hr {
 	height: 2px;
 }
 hr:after {
-    content: '';
-    display: block;
-    height: 10px;
-    position: relative;
-    width: 10px;
-    margin: 0 auto;
-    bottom: 4px;
+	content: '';
+	display: block;
+	height: 10px;
+	position: relative;
+	width: 10px;
+	margin: 0 auto;
+	bottom: 4px;
 }
 
 /*------------------------------------------------------------------------
@@ -387,7 +386,7 @@ hr:after {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  	background: none;
+	background: none;
 }
 
 /* sm */
@@ -434,8 +433,8 @@ hr:after {
 	float: right;
 }
 .menu-social ul li {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 .menu-social li a {
 	display: inline-block;
@@ -596,8 +595,8 @@ hr:after {
 	content: "";
 	height: 22px;
 	margin-left: -62px;
-    margin-top: 10px;
-    position: absolute;
+	margin-top: 10px;
+	position: absolute;
 	width: 22px;
 }
 .mod-alpha p,
@@ -617,11 +616,11 @@ hr:after {
 .wc-image-links .gallery-caption,
 .wc-gallery-captions-showon .gallery-caption,
 .wc-gallery-captions-onhover .gallery-caption {
-    background: none;
-    display: block;
-    left: 60px;
-    position: absolute;
-    top: 95px;
+	background: none;
+	display: block;
+	left: 60px;
+	position: absolute;
+	top: 95px;
 }
 .wc-gallery .gallery-caption .leader-button button {
 	border: none;
@@ -639,14 +638,14 @@ hr:after {
 	margin-top: 20px;
 }
 .widget-area {
-    padding: 25px;
+	padding: 25px;
 	margin-top: 25px;
 }
 
 /* Comments */
 .comment-form-comment label {
-    float: left;
-    padding-right: 15px;
+	float: left;
+	padding-right: 15px;
 }
 
 /*------------------------------------------------------------------------
@@ -657,7 +656,7 @@ hr:after {
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce p.buttons a.button:hover {
-    background-image: none;
+	background-image: none;
 }
 
 /*------------------------------------------------------------------------
@@ -699,7 +698,7 @@ html, body, .site, .site-content {
 }
 
 #boldgrid-sticky-wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }

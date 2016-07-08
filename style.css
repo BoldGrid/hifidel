@@ -1,14 +1,13 @@
 /*
 Theme Name: Hifidel
 Author: The BoldGrid Team
-Theme URI: http://www.boldgrid.com/hifidel
-Author URI: http://www.boldgrid.com/the-team
+Theme URI: https://www.boldgrid.com/hifidel
+Author URI: https://www.boldgrid.com/the-team
 Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
-Version: 1.18
+Version: 1.19
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-hifidel
-Template: prime
 Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-31
 */
 
@@ -30,15 +29,13 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Social Menus
 # GridBLocks
 	## Positioning
-	## Alternates
 # Modules
-	## Universal
 	## Global
 	## Alpha
 # Pages
-	## Home
 # Posts
 # Plugins
+	## WP Canvas Gallery
 	## WooCommerce
 # Footer
 ------------------------------------------------------------------------*/
@@ -69,38 +66,24 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
-.entry-content ul {
-	line-height: 28px;
+.mod-alpha h3,
+.mod-alpha-1 h3,
+.mod-alpha p,
+.mod-alpha-2,
+.site-footer,
+.wc-gallery .gallery-caption .leader-button {
+	font-weight: bold;
 }
-.xs-center,
-.mod-img,
-.mod-img-circle,
 .p-button-primary,
 .p-button-secondary {
-	text-align: center;
+	white-space: nowrap;
 }
-h2 {
-	font-weight: 400;
-}
-h3 {
-	line-height: 26px;
-}
-.entry-content ul,
-.entry-content ol {
-	line-height: 28px;
-}
-.entry-title {
-	font-weight: 400;
-	text-align: center;
-}
-.heading p {
-	text-align: center;
-}
-.icon i.fa {
-	text-align: center;
+.menu-social li a {
+	-webkit-font-smoothing: antialiased;
 }
 a:hover,
-a:focus {
+a:focus,
+.site-footer a {
 	text-decoration: underline;
 }
 .button-primary:hover,
@@ -108,84 +91,27 @@ a:focus {
 input[type="submit"]:hover,
 input[type="submit"]:focus,
 .form-submit .submit:hover,
-.form-submit .submit:focus {
-	text-decoration: none;
-}
+.form-submit .submit:focus,
 .button-secondary:hover,
-.button-secondary:active {
+.button-secondary:active,
+.woocommerce p.buttons a.button:hover,
+.site-footer a:hover,
+.site-footer a:focus {
 	text-decoration: none;
 }
-.p-button-primary,
-.p-button-secondary {
-	white-space: nowrap;
-}
-.site-title {
-	font-weight: normal;
-}
-.site-description {
-	font-weight: 300;
-}
-#site-navigation {
-	font-weight: 400;
-}
-.secondary-menu {
+.entry-title,
+.heading p,
+.secondary-menu,
+.icon i.fa,
+.site-footer {
 	text-align: center;
-}
-.tertiary-menu {
-	text-align: right;
-}
-.menu-social li a {
-	text-align: right;
-	-webkit-font-smoothing: antialiased;
-}
-.mod-blockquote p {
-	line-height: 48px;
-}
-.mod-alpha h3,
-.mod-alpha-1 h3 {
-	font-weight: 600;
-}
-.mod-alpha p,
-.mod-alpha-2 {
-	font-weight: 600;
-}
-.wc-gallery .gallery-caption p {
-	font-weight: 300;
-	text-transform: uppercase;
-}
-.wc-gallery .gallery-caption .leader-button {
-	font-weight: 600;
-}
-#footer-widget-area #wp-calendar.table > thead > tr > th,
-#footer-widget-area #wp-calendar.table > tbody > tr > th,
-#footer-widget-area #wp-calendar.table > tfoot > tr > th,
-#footer-widget-area #wp-calendar.table > thead > tr > td,
-#footer-widget-area #wp-calendar.table > tbody > tr > td,
-#footer-widget-area #wp-calendar.table > tfoot > tr > td,
-#header-widget-area #wp-calendar.table > thead > tr > th,
-#header-widget-area #wp-calendar.table > tbody > tr > th,
-#header-widget-area #wp-calendar.table > tfoot > tr > th,
-#header-widget-area #wp-calendar.table > thead > tr > td,
-#header-widget-area #wp-calendar.table > tbody > tr > td,
-#header-widget-area #wp-calendar.table > tfoot > tr > td {
-	font-size: 8px;
 }
 #footer-widget-area {
 	text-align: left;
 }
-.woocommerce p.buttons a.button:hover {
-	text-decoration: none;
-}
-.site-footer {
-	font-weight: 600;
-	text-align: center;
-}
-.site-footer a {
-	text-decoration: underline;
-}
-.site-footer a:hover,
-.site-footer a:focus {
-	text-decoration: none;
+.menu-social li a,
+.tertiary-menu {
+	text-align: right;
 }
 
 /* xs */
@@ -193,7 +119,11 @@ input[type="submit"]:focus,
 .site-description,
 .social-media,
 .navbar-default .navbar-nav > li > a,
-.xs-center {
+.xs-center,
+.mod-img,
+.mod-img-circle,
+.p-button-primary,
+.p-button-secondary {
 	text-align: center;
 }
 
@@ -202,8 +132,7 @@ input[type="submit"]:focus,
 	.site-title,
 	.site-description,
 	.social-media,
-	.navbar-default .navbar-nav > li > a,
-	.xs-center {
+	.navbar-default .navbar-nav > li > a {
 		text-align: left;
 	}
 }
@@ -267,6 +196,10 @@ input[type="submit"]:focus,
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -363,7 +296,6 @@ hr:after {
 /*-----------------------------------------------
 ## Main Menu
 -----------------------------------------------*/
-/* Nav Reset */
 .navbar {
 	background: none;
 	border: none;
@@ -487,7 +419,7 @@ hr:after {
 }
 
 /*-----------------------------------------------
-## Alternates
+## Et Cetera
 -----------------------------------------------*/
 .gridblock li {
 	list-style-type: none;
@@ -553,6 +485,17 @@ hr:after {
 /*-----------------------------------------------
 ## Global
 -----------------------------------------------*/
+.square-primary {
+	height: 80px;
+}
+.square-secondary {
+	height: 40px;
+}
+blockquote,
+.mod-blockquote p {
+	padding-left: 15px;
+}
+
 /* Dividers
  * Deprecated since 2015.12.21
  */
@@ -565,39 +508,17 @@ hr:after {
 	width: 11px;
 }
 
-/* Squares */
-.square-primary {
-	height: 80px;
-}
-.square-secondary {
-	height: 40px;
-}
-
-/* Blockquotes */
-.mod-blockquote p {
-	padding-left: 15px;
-}
-
 /*-----------------------------------------------
 ## Alpha
 -----------------------------------------------*/
 /* Mod-Alpha-1 & Mod-Alpha-2
  * Deprecated since 2015.12.21
  */
-.mod-alpha h4,
-.mod-alpha-1 h4 {
+.mod-alpha h3,
+.mod-alpha-1 h3 {
 	float: right;
 	margin: 40px 5px 0;
 	padding: 15px 40px;
-}
-.mod-alpha h4:before,
-.mod-alpha-1 h4:before {
-	content: "";
-	height: 22px;
-	margin-left: -62px;
-	margin-top: 10px;
-	position: absolute;
-	width: 22px;
 }
 .mod-alpha p,
 .mod-alpha-2 {
@@ -608,28 +529,6 @@ hr:after {
 /*------------------------------------------------------------------------
 # Pages
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Home
------------------------------------------------*/
-/* Gallery Caption */
-.wc-image-links .gallery-caption,
-.wc-gallery-captions-showon .gallery-caption,
-.wc-gallery-captions-onhover .gallery-caption {
-	background: none;
-	display: block;
-	left: 60px;
-	position: absolute;
-	top: 95px;
-}
-.wc-gallery .gallery-caption .leader-button button {
-	border: none;
-	padding: 10px 45px 15px;
-}
-#gallery-2 {
-	margin-bottom: 75px;
-	margin-top: 1px;
-}
 
 /*------------------------------------------------------------------------
 # Posts
@@ -653,6 +552,28 @@ hr:after {
 ------------------------------------------------------------------------*/
 
 /*-----------------------------------------------
+## WP Canvas Gallery
+-----------------------------------------------*/
+/* Gallery Caption */
+.wc-image-links .gallery-caption,
+.wc-gallery-captions-showon .gallery-caption,
+.wc-gallery-captions-onhover .gallery-caption {
+	background: none;
+	display: block;
+	left: 60px;
+	position: absolute;
+	top: 95px;
+}
+.wc-gallery .gallery-caption .leader-button button {
+	border: none;
+	padding: 10px 45px 15px;
+}
+#gallery-2 {
+	margin-bottom: 75px;
+	margin-top: 1px;
+}
+
+/*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce p.buttons a.button:hover {
@@ -669,8 +590,6 @@ hr:after {
 .site-info a {
 	padding: 25px 0 0;
 }
-
-/* Menu Location */
 .footer-center-menu li.menu-social:after {
 	content: "";
 }
@@ -680,9 +599,21 @@ hr:after {
 .footer-center-items {
 	padding: 0;
 }
+
+/* Disabled Footer */
 .disabled-footer .site-footer {
 	height: auto;
 	padding: 15px 0;
+}
+
+/* Sticky Footer */
+html, body, .site, .site-content {
+	height: 100%;
+}
+#boldgrid-sticky-wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
 
 /* md */
@@ -690,15 +621,4 @@ hr:after {
 	.attribution {
 		padding-bottom: 0;
 	}
-}
-
-/** Sticky Footer **/
-html, body, .site, .site-content {
-	height: 100%;
-}
-
-#boldgrid-sticky-wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
 }

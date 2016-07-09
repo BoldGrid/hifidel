@@ -15,7 +15,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 >>> TABLE OF CONTENTS:
 --------------------------------------------------------------------------
 # Base Styles
-	## Background
 	## Positioning
 	## Typography
 	## Titles
@@ -27,8 +26,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Main Menu
 	## Other Menus
 	## Social Menus
-# GridBLocks
-	## Positioning
+# GridBlocks
 # Modules
 	## Global
 	## Alpha
@@ -43,10 +41,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*------------------------------------------------------------------------
 # Base Styles
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Background
------------------------------------------------*/
 
 /*-----------------------------------------------
 ## Positioning
@@ -99,13 +93,6 @@ input[type="submit"]:focus,
 .site-footer a:focus {
 	text-decoration: none;
 }
-.entry-title,
-.heading p,
-.secondary-menu,
-.icon i.fa,
-.site-footer {
-	text-align: center;
-}
 #footer-widget-area {
 	text-align: left;
 }
@@ -113,8 +100,11 @@ input[type="submit"]:focus,
 .tertiary-menu {
 	text-align: right;
 }
-
-/* xs */
+.entry-title,
+.heading p,
+.secondary-menu,
+.icon i.fa,
+.site-footer,
 .site-title,
 .site-description,
 .social-media,
@@ -299,7 +289,6 @@ hr:after {
 .navbar {
 	background: none;
 	border: none;
-	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -310,11 +299,7 @@ hr:after {
 
 /* Hover */
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-	background: none;
-}
-
-/* Active */
+.navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -338,21 +323,17 @@ hr:after {
 /*-----------------------------------------------
 ## Other Menus
 -----------------------------------------------*/
-.secondary-menu li a {
-	padding: 0 10px;
-}
-.secondary-menu li:after {
-	content: "";
-}
 .tertiary-menu {
 	background: none;
 }
+.secondary-menu li a
 .tertiary-menu li a {
-	padding: 0 8px;
+	padding: 0 10px;
 }
 .tertiary-menu li:last-child a {
 	padding-right: 0;
 }
+.secondary-menu li:after,
 .tertiary-menu li:after {
 	content: "";
 }
@@ -401,26 +382,6 @@ hr:after {
 /*------------------------------------------------------------------------
 # GridBlocks
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Positioning
------------------------------------------------*/
-.gridblock h1,
-.gridblock h2,
-.gridblock h3,
-.gridblock h4,
-.gridblock h5,
-.gridblock h6,
-.gridblock ol,
-.gridblock ul,
-.gridblock li,
-.gridblock p {
-	margin: 10px 0;
-}
-
-/*-----------------------------------------------
-## Et Cetera
------------------------------------------------*/
 .gridblock li {
 	list-style-type: none;
 	margin-left: -15px;

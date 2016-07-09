@@ -18,7 +18,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Positioning
 	## Typography
 	## Titles
-	## Links
 	## Buttons
 	## Et Cetera
 # Header
@@ -181,14 +180,6 @@ input[type="submit"]:focus,
 /* Search Form */
 .form-control {
 	display: inline-block;
-}
-
-/*-----------------------------------------------
-## Links
------------------------------------------------*/
-/* Removes blue box in Chrome */
-*:focus {
-	outline: 0;
 }
 
 /*-----------------------------------------------

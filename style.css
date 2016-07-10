@@ -464,7 +464,6 @@ blockquote,
 /*-----------------------------------------------
 ## WP Canvas Gallery
 -----------------------------------------------*/
-/* Gallery Caption */
 .wc-image-links .gallery-caption,
 .wc-gallery-captions-showon .gallery-caption,
 .wc-gallery-captions-onhover .gallery-caption {
@@ -514,16 +513,6 @@ blockquote,
 .disabled-footer .site-footer {
 	height: auto;
 	padding: 15px 0;
-}
-
-/* Sticky Footer */
-html, body, .site, .site-content {
-	height: 100%;
-}
-#boldgrid-sticky-wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
 }
 
 /* md */

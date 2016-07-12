@@ -154,6 +154,11 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Background.
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['background_image'] = false;
 
+	// Menu Locations.
+	$boldgrid_framework_configs['menu']['locations']['social'] = 'Right Above Primary Menu';
+	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Secondary Menu Above Header';
+	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Top Right Above Header';
+
 	// Name Widget Areas.
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Above Header';
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-2']['name'] = 'Below Navigation';

@@ -160,8 +160,11 @@ input[type="submit"]:focus,
 	top: 50%;
 	z-index: -1;
 }
-.entry-title span {
+.entry-title a {
 	padding: 5px 30px;
+}
+.entry-title a:hover {
+	text-decoration: none;
 }
 .post-title-hidden .site-content {
 	margin-top: 30px;

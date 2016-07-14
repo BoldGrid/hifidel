@@ -16,10 +16,10 @@
 	h5,
 	h6,
 	.entry-title,
-	.navbar-default .navbar-nav > li > a:hover, 
+	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus,
-	.navbar-default .navbar-nav > .active > a, 
-	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
 	.navbar-default .navbar-nav > .active > a:focus, {
 		color: $palette-primary_1;
 	}
@@ -86,7 +86,8 @@
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
-	.entry-title {
+	.entry-title a,
+	.entry-title a:hover {
 		color: $text-contrast-palette-primary_3;
 	}
 	.entry-title:before,
@@ -94,9 +95,9 @@
 		border-top: 1px solid $palette-primary_3;
 	}
 	.widget-area {
-	    border: 1px solid $palette-primary_3;
+		border: 1px solid $palette-primary_3;
 	}
-	.entry-title span,
+	.entry-title a,
 	.gridblock li:before,
 	.square-secondary,
 	.mod-alpha h4:before,
@@ -105,7 +106,7 @@
 	}
 	.menu-social li a,
 	.tertiary-menu li a {
-		color: $palette-primary_3;	
+		color: $palette-primary_3;
 	}
 
 	/*-----------------------------------------------
@@ -142,10 +143,10 @@
 	input[type="submit"]:hover,
 	input[type="submit"]:focus,
 	input[type="submit"]:active,
-	.button-primary:hover, 
+	.button-primary:hover,
 	.button-primary:focus,
 	.button-primary:active,
-	.button-secondary:hover, 
+	.button-secondary:hover,
 	.button-secondary:focus,
 	.button-secondary:active,
 	.form-submit .submit:hover,
@@ -243,9 +244,9 @@
 	.mod-blockquote p {
 		color: #888;
 	}
-	.woocommerce #respond input#submit, 
+	.woocommerce #respond input#submit,
 	.woocommerce a.button,
-	.woocommerce button.button, 
+	.woocommerce button.button,
 	.woocommerce input.button,
 	.woocommerce p.buttons a.button {
 	    background-color: #a46497;
@@ -254,7 +255,7 @@
 	.woocommerce p.buttons a.button:hover {
 		background-color: #dad8da;
 	    color: #515151;
-	}	
+	}
 }
 
 .palette-primary.mce-content-body {

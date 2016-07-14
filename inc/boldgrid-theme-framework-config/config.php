@@ -147,6 +147,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'amount' => 1.25,
 	);
 
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.entry-title a'] = array(
+		'type' => 'subheadings',
+		'round' => 'ceil',
+		'amount' => 1.5,
+	);
+
 	// Fonts & Icons.
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';

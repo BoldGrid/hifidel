@@ -72,9 +72,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .p-button-secondary {
 	white-space: nowrap;
 }
-.menu-social li a {
-	-webkit-font-smoothing: antialiased;
-}
 a:hover,
 a:focus,
 .site-footer a {
@@ -96,7 +93,6 @@ input[type="submit"]:focus,
 #footer-widget-area {
 	text-align: left;
 }
-.menu-social li a,
 .tertiary-menu {
 	text-align: right;
 }
@@ -336,39 +332,14 @@ hr:after {
 /*-----------------------------------------------
 ## Social Menus
 -----------------------------------------------*/
-.menu-social ul {
-	padding-left: 0px;
+.social-menu {
 	float: right;
 }
-.menu-social ul li {
-	position: relative;
-	display: inline-block;
+.social-menu li {
+	margin: 0 .6em;
 }
-.menu-social li a {
-	display: inline-block;
-	padding: 0 8px;
-}
-
-/* xs */
-.social-media {
-	margin: 1em 0 0 -30px;
-}
-
-/* sm */
-@media (min-width: 768px) {
-	.social-media {
-		float: right;
-	}
-	.social-media li:last-child {
-		padding-right: 0;
-	}
-}
-
 /* md */
 @media (min-width: 992px) {
-	.social-media {
-		margin: 95px 0 0;
-	}
 	.attribution {
 		padding-bottom: 0;
 	}

@@ -89,15 +89,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		),
 	);
 
-	// Get Subcategory ID from the Database.
-	$boldgrid_install_options = get_option( 'boldgrid_install_options', array() );
-	$subcategory_id = null;
-	if ( ! empty( $boldgrid_install_options['subcategory_id'] ) ) {
-		$subcategory_id = $boldgrid_install_options['subcategory_id'];
-	}
-
 	// Override Options per Subcategory.
-	switch ( $subcategory_id ) {
+	switch ( $boldgrid_framework_configs['inspiration']['subcategory_key'] ) {
 		// Photography.
 		case 12:
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;

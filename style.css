@@ -410,6 +410,21 @@ blockquote,
 	clear: both;
 	padding: 2.5em;
 }
+.mod-alpha h4:before, .mod-alpha-1 h4:before,
+.mod-alpha h3:before, .mod-alpha-1 h3:before {
+	content: "";
+	height: 22px;
+	margin-left: -62px;
+	margin-top: 9px;
+	position: absolute;
+	width: 22px;
+}
+.mod-alpha h4, .mod-alpha-1 h4,
+.mod-alpha h3, .mod-alpha-1 h3 {
+	float: right;
+	margin: 40px 5px 0;
+	padding: 15px 40px;
+}
 
 /*------------------------------------------------------------------------
 # Pages

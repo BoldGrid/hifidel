@@ -33,7 +33,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'7' => array( '[menu]tertiary' ),
 		'6' => array( '[action]boldgrid_site_identity' ),
 		'11' => array( '[action]boldgrid_primary_navigation' ),
-		'13' => array( '[widget]boldgrid-widget-2' ),
+		'13' => array( '[action]boldgrid_container_wrap_start', '[widget]boldgrid-widget-2', '[action]boldgrid_container_wrap_end' ),
 	);
 
 	/**
@@ -177,3 +177,19 @@ function filter_logo_controls( $controls ) {
 	return $controls;
 }
 add_filter( 'kirki/fields', 'filter_logo_controls' );
+
+/**
+ * This is used to open a container up around a widget location.
+ */
+function boldgrid_container_wrap_start() { ?>
+	<div class="container">
+<?php }
+add_action( 'boldgrid_container_wrap_start', 'boldgrid_container_wrap_start', 5 );
+
+/**
+ * This is used to close a container around a widget location.
+ */
+function boldgrid_container_wrap_end() { ?>
+	</div>
+<?php }
+add_action( 'boldgrid_container_wrap_end', 'boldgrid_container_wrap_end', 20 );

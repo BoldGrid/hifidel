@@ -29,6 +29,7 @@
 	.mod-divider-accent {
 		background: $palette-primary_1;
 	}
+	.mod-alpha h3,
 	.mod-alpha h4 {
 		background:	$palette-primary_1;
 		color: $text-contrast-palette-primary_1;
@@ -100,6 +101,7 @@
 	.entry-title a,
 	.gridblock li:before,
 	.square-secondary,
+	.mod-alpha h3:before,
 	.mod-alpha h4:before,
 	.mod-alpha-1 h4:before {
 		background: $palette-primary_3;

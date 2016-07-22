@@ -436,6 +436,14 @@ blockquote,
 .error404 .button-primary {
 	margin: 0;
 }
+/* Search Page */
+.search .jumbotron {
+	text-align: center;
+	background: none;
+}
+.search .button-primary {
+	margin: 0;
+}
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/

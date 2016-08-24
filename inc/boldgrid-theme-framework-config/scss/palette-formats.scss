@@ -210,7 +210,8 @@
                 }
             }
             li > a {
-                color: $text-contrast-palette-primary_1;
+                	background: $palette-primary_1;
+                    color: $text-contrast-palette-primary_1;
                 &:hover, &:focus {
                     background: $palette-primary_2;
                     color: $text-contrast-palette-primary_2;

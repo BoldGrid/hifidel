@@ -287,6 +287,9 @@ hr:after {
 .navbar-default {
 	margin-bottom: 0;
 }
+.dropdown-menu {
+	min-width: 130px;
+}
 
 /* Hover */
 .navbar-default .navbar-nav > li > a:hover,
@@ -302,12 +305,6 @@ hr:after {
 	/* Navigation */
 	.navbar-default {
 		float: right;
-	}
-	.navbar-default .navbar-nav > li:first-child > a {
-		padding-left: 0;
-	}
-	.navbar-default .navbar-nav > li:last-child > a {
-		padding-right: 0;
 	}
 }
 

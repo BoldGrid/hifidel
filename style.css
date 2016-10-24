@@ -290,6 +290,9 @@ hr:after {
 .dropdown-menu {
 	min-width: 130px;
 }
+ul.dropdown-menu {
+	text-align: center;
+}
 
 /* Hover */
 .navbar-default .navbar-nav > li > a:hover,
@@ -305,6 +308,9 @@ hr:after {
 	/* Navigation */
 	.navbar-default {
 		float: right;
+	}
+	ul.dropdown-menu {
+		text-align: left;
 	}
 }
 

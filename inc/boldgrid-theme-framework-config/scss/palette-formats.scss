@@ -168,56 +168,70 @@
 	.footer-center-menu li.menu-social a:focus {
 		color: $palette-primary_1;
 	}
-    .dropdown .active, ul.dropdown-menu {
-        background: $palette-primary_1;
-        color: $text-contrast-palette-primary_1;
-    }
-    .navbar-default .navbar-nav {
-        > {
-            .current-menu-parent > a {
-                color: $palette-primary_1;
-            }
-            .active > a {
-                color: $palette-primary_1;
-                background: none;
-                &:hover, &:focus {
-                    color: $palette-primary_1;
-                    background: none;
-                }
-            }
-            li > a {
-                &:hover, &:focus {
-                    color: $palette-primary_1;
-                    background: none;
-                }
-            }
-        }
-        .open > a {
-        	background: $palette-primary_1;
-        	color: $text-contrast-palette-primary_1;
-        	&:hover, &:focus {
-        		background: $palette-primary_1;
-                color: $text-contrast-palette-primary_1;
-        	}
-        }
-        .dropdown .dropdown-menu > {
-            .active > a {
-                background: $palette-primary_1;
-                color: $text-contrast-palette-primary_1;
-                &:hover, &:focus {
-                    background: $palette-primary_1;
-                    color: $text-contrast-palette-primary_1;
-                }
-            }
-            li > a {
-                color: $text-contrast-palette-primary_1;
-                &:hover, &:focus {
-                    background: $palette-primary_2;
-                    color: $text-contrast-palette-primary_2;
-                }
-            }
-        }
-    }
+
+	.dropdown-menu {
+		background: $palette-primary_4;
+	}
+	.navbar-default .navbar-nav .dropdown .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.navbar-default .navbar-nav {
+		> {
+			.current-menu-parent > a {
+				color: $palette-primary_1;
+			}
+			.open > a {
+				background: $palette-primary_4;
+			}
+			.open .dropdown-menu > li > a {
+				color: $text-contrast-palette-primary_4;
+			}	
+			.active > a {
+				color: $palette-primary_1;
+				background: none;
+				&:hover, &:focus {
+					color: $palette-primary_1;
+					background: none;
+				}
+			}
+			li > a {
+				&:hover, &:focus {
+					color: $palette-primary_1;
+					background: none;
+				}
+			}
+		}
+	}
+	
+	/* sm */
+	@media (min-width: 768px) {
+		.dropdown .active, ul.dropdown-menu {
+			background: $palette-primary_1;
+			color: $text-contrast-palette-primary_1;
+		}
+		.navbar-default .navbar-nav {
+			.open > a {
+				background: $palette-primary_1;
+				color: $text-contrast-palette-primary_1;
+				&:hover, &:focus {
+					background: $palette-primary_1;
+					color: $text-contrast-palette-primary_1;
+				}
+			}
+			.dropdown .dropdown-menu > {
+				li > a {
+					color: $text-contrast-palette-primary_1;
+					&:hover, &:focus {
+						background: $palette-primary_2;
+						color: $text-contrast-palette-primary_2;
+					}
+				}
+			}
+		}
+	}
 
     #tertiary-menu .current_page_item a[href],
     #menu-social .current_page_item a[href],

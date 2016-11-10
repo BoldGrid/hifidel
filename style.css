@@ -74,7 +74,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 }
 a:hover,
 a:focus,
-.site-footer a {
+.site-footer a,
+.site-header .well .nav > li > a:hover,
+.site-header .well .nav > li > a:focus {
 	text-decoration: underline;
 }
 .button-primary:hover,
@@ -249,6 +251,16 @@ hr:after {
 	width: 10px;
 	margin: 0 auto;
 	bottom: 4px;
+}
+.well {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+.widget .table > tbody > tr:nth-of-type(2n+1),
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background: transparent;
 }
 
 /*------------------------------------------------------------------------

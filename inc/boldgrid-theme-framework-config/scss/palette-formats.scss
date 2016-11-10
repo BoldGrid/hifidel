@@ -20,7 +20,8 @@
 	.navbar-default .navbar-nav > li > a:focus,
 	.navbar-default .navbar-nav > .active > a,
 	.navbar-default .navbar-nav > .active > a:hover,
-	.navbar-default .navbar-nav > .active > a:focus, {
+	.navbar-default .navbar-nav > .active > a:focus,
+	.site-header .widget.well a {
 		color: $palette-primary_1;
 	}
 	hr:after,
@@ -30,7 +31,9 @@
 		background: $palette-primary_1;
 	}
 	.mod-alpha h3,
-	.mod-alpha h4 {
+	.mod-alpha h4,
+	.sidebar .nav > li > a:focus,
+	.sidebar .nav > li > a:hover {
 		background:	$palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -68,7 +71,9 @@
 	.site-footer a:focus,
 	.secondary-menu li a,
 	.wc-gallery .gallery-caption p,
-	.wc-gallery .gallery-caption .leader-button {
+	.wc-gallery .gallery-caption .leader-button,
+	.site-footer .widget.well,
+	.site-footer caption {
 		color: $text-contrast-palette-primary_2;
 	}
 	.mod-alpha p,
@@ -133,12 +138,11 @@
 	}
 	a:hover,
 	a:focus,
-	#footer-widget-area h2,
-	#footer-widget-area h3,
-	#footer-widget-area p,
-	#footer-widget-area a:hover {
+	.site-header .widget.well,
+	.site-header caption {
 		color: $text-contrast-palette-primary_4;
 	}
+
 	/*-----------------------------------------------
 	## 1 - Button & Social Hover
 	-----------------------------------------------*/

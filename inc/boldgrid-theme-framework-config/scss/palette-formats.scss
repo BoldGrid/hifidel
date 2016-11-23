@@ -41,7 +41,8 @@
 	.gridblock li::before {
 	    background-color: $palette-primary_1;
 	}
-	.mod-blockquote {
+	.mod-blockquote,
+	blockquote {
 	    border-left: 3px solid $palette-primary_1;
 	}
 
@@ -51,7 +52,8 @@
 	.button-primary,
 	.site-footer,
 	.form-submit .submit,
-	input[type="submit"] {
+	input[type="submit"],
+	.pager li > a {
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}
@@ -157,7 +159,9 @@
 	.button-secondary:active,
 	.form-submit .submit:hover,
 	.form-submit .submit:focus,
-	.form-submit .submit:active {
+	.form-submit .submit:active,
+	.pager li > a:hover,
+	.pager li > a:focus {
 		background:	$palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}

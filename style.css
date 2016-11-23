@@ -198,6 +198,11 @@ input[type="submit"],
 .button-secondary {
 	padding: 8px 40px;
 }
+.pager li > a,
+.pager li > a:hover,
+.pager li > a:focus {
+	border: none;
+}
 
 /* Positioning */
 .p-button-primary,

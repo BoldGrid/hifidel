@@ -117,6 +117,9 @@
 	.tertiary-menu li a {
 		color: $palette-primary_3;
 	}
+	.panel-default {
+		border-color: $palette-primary_3;
+	}
 
 	/*-----------------------------------------------
 	## 4
@@ -134,7 +137,10 @@
 		color: $text-contrast-palette-primary_4;
 	}
 	&.disabled-footer .site-footer,
-	&.disabled-footer .site-footer a {
+	&.disabled-footer .site-footer a,
+	.panel-default > .panel-heading,
+	.panel-body,
+	.panel-footer {
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}

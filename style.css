@@ -143,20 +143,20 @@ input[type="submit"]:focus,
 	display: none;
 }
 .entry-title {
-	display: block;
-	margin: 10px 0 60px 0;
 	position: relative;
 	z-index: 1;
+	display: block;
+	margin: 10px 0 60px 0;
 }
 .entry-title:before {
-	bottom: 0;
-	content:"";
-	left: 0;
-	margin: 0 auto;
 	position: absolute;
-	right: 0;
 	top: .75em;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	z-index: -1;
+	margin: 0 auto;
+	content: "";
 }
 .entry-title a {
 	padding: 5px 30px;
@@ -190,10 +190,10 @@ input[type="submit"]:focus,
 .button-primary,
 input[type="submit"],
 .form-submit .submit {
-	border: none;
-	margin-bottom: 20px;
 	margin-top: 30px;
+	margin-bottom: 20px;
 	padding: 8px 40px;
+	border: none;
 }
 .button-secondary {
 	padding: 8px 40px;
@@ -207,10 +207,10 @@ input[type="submit"],
 /* Positioning */
 .p-button-primary,
 .p-button-secondary {
-	margin-bottom: 40px;
 	margin-top: 40px;
-	padding-bottom: 5px;
+	margin-bottom: 40px;
 	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .p-button-right {
 	float: none;
@@ -245,21 +245,21 @@ input[type="submit"],
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	border: 0;
 	height: 2px;
+	border: 0;
 }
 hr:after {
-	content: '';
-	display: block;
-	height: 10px;
 	position: relative;
-	width: 10px;
-	margin: 0 auto;
 	bottom: 4px;
+	display: block;
+	margin: 0 auto;
+	width: 10px;
+	height: 10px;
+	content: "";
 }
 .well {
-	background: transparent;
 	border: none;
+	background: transparent;
 	box-shadow: none;
 }
 .widget .table > tbody > tr:nth-of-type(2n+1),
@@ -295,9 +295,9 @@ hr:after {
 ## Main Menu
 -----------------------------------------------*/
 .navbar {
-	background: none;
 	border: none;
 	border-radius: 0;
+	background: none;
 }
 .navbar-default {
 	margin-bottom: 0;
@@ -367,18 +367,18 @@ ul.dropdown-menu {
 # GridBlocks
 ------------------------------------------------------------------------*/
 .gridblock li {
-	list-style-type: none;
 	margin-left: -15px;
 	padding-left: 0;
+	list-style-type: none;
 }
 .gridblock li:before {
-	content: '';
-	display: inline-block;
-	height: 4px;
-	margin-right: 8px;
 	position: relative;
-	width: 4px;
 	bottom: 3px;
+	display: inline-block;
+	margin-right: 8px;
+	width: 4px;
+	height: 4px;
+	content: "";
 }
 
 /*------------------------------------------------------------------------
@@ -406,9 +406,9 @@ blockquote,
 	margin-top: 50px;
 }
 .mod-divider-accent {
-	height: 11px;
 	margin: -6px auto 40px;
 	width: 11px;
+	height: 11px;
 }
 
 /*-----------------------------------------------
@@ -428,17 +428,21 @@ blockquote,
 	clear: both;
 	padding: 2.5em;
 }
-.mod-alpha h4:before, .mod-alpha-1 h4:before,
-.mod-alpha h3:before, .mod-alpha-1 h3:before {
-	content: "";
-	height: 22px;
-	margin-left: -62px;
-	margin-top: 9px;
+.mod-alpha h4:before,
+.mod-alpha-1 h4:before,
+.mod-alpha h3:before,
+.mod-alpha-1 h3:before {
 	position: absolute;
+	margin-top: 9px;
+	margin-left: -62px;
 	width: 22px;
+	height: 22px;
+	content: "";
 }
-.mod-alpha h4, .mod-alpha-1 h4,
-.mod-alpha h3, .mod-alpha-1 h3 {
+.mod-alpha h4,
+.mod-alpha-1 h4,
+.mod-alpha h3,
+.mod-alpha-1 h3 {
 	float: right;
 	margin: 40px 5px 0;
 	padding: 15px 40px;
@@ -456,8 +460,8 @@ blockquote,
 }
 /* Search Page */
 .search .jumbotron {
-	text-align: center;
 	background: none;
+	text-align: center;
 }
 .search .button-primary {
 	margin: 0;
@@ -469,8 +473,8 @@ blockquote,
 	margin-top: 20px;
 }
 .widget-area {
-	padding: 25px;
 	margin-top: 25px;
+	padding: 25px;
 }
 
 /* Comments */
@@ -495,19 +499,19 @@ blockquote,
 .wc-image-links .gallery-caption,
 .wc-gallery-captions-showon .gallery-caption,
 .wc-gallery-captions-onhover .gallery-caption {
-	background: none;
-	display: block;
-	left: 60px;
 	position: absolute;
 	top: 95px;
+	left: 60px;
+	display: block;
+	background: none;
 }
 .wc-gallery .gallery-caption .leader-button button {
-	border: none;
 	padding: 10px 45px 15px;
+	border: none;
 }
 #gallery-2 {
-	margin-bottom: 75px;
 	margin-top: 1px;
+	margin-bottom: 75px;
 }
 
 /*-----------------------------------------------
@@ -539,8 +543,8 @@ blockquote,
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
-	height: auto;
 	padding: 15px 0;
+	height: auto;
 }
 
 /* md */

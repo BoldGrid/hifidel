@@ -329,6 +329,13 @@ ul.dropdown-menu {
 	}
 }
 
+/* sm */
+@media (min-width: 992px) {
+	.navbar-default {
+		margin-right: -15px;
+	}
+}
+
 /*-----------------------------------------------
 ## Other Menus
 -----------------------------------------------*/

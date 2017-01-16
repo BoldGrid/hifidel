@@ -329,7 +329,7 @@ ul.dropdown-menu {
 	}
 }
 
-/* sm */
+/* md */
 @media (min-width: 992px) {
 	.navbar-default {
 		margin-right: -15px;

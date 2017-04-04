@@ -33,7 +33,9 @@
 	.mod-alpha h3,
 	.mod-alpha h4,
 	.sidebar .nav > li > a:focus,
-	.sidebar .nav > li > a:hover {
+	.sidebar .nav > li > a:hover,
+	.mark,
+	mark {
 		background:	$palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}

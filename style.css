@@ -538,7 +538,10 @@ blockquote,
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-
+.woocommerce-account td.download-actions .btn.button-primary,
+.woocommerce-account p.order-again .btn.button-primary {
+	padding: 15px 30px;
+}
 
 /*------------------------------------------------------------------------
 # Footer

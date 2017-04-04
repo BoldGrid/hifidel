@@ -145,6 +145,11 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'round' => 'ceil',
 		'amount' => 1.5,
 	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.woocommerce ul.products li.product h3'] = array(
+		'type' => 'headings',
+		'round' => 'ceil',
+		'amount' => 1.3,
+	);
 
 	// Fonts & Icons.
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';

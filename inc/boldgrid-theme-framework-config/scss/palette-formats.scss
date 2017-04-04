@@ -80,8 +80,8 @@
 	}
 	.mod-alpha p,
 	.mod-alpha-2 {
-		border-right: 5px solid $palette-primary_2;
 		border-bottom: 5px solid $palette-primary_2;
+		border-right: 5px solid $palette-primary_2;
 	}
 	.mod-divider {
 		border-top: 2px solid #333;
@@ -204,17 +204,17 @@
 				color: $text-contrast-palette-primary_4;
 			}	
 			.active > a {
-				color: $palette-primary_1;
 				background: none;
+				color: $palette-primary_1;
 				&:hover, &:focus {
-					color: $palette-primary_1;
 					background: none;
+					color: $palette-primary_1;
 				}
 			}
 			li > a {
 				&:hover, &:focus {
-					color: $palette-primary_1;
 					background: none;
+					color: $palette-primary_1;
 				}
 			}
 		}
@@ -260,34 +260,11 @@
 	.footer-center-menu .current_page_item a[href] {
 		color: $palette-primary_4;
 	}
-	/*-----------------------------------------------
-	## Forms
-	-----------------------------------------------*/
-	input,
-	select,
-	textarea {
-		color: #333;
-	}
-	/*-----------------------------------------------
-	# Et Cetera
-	-----------------------------------------------*/
-	.mod-blockquote p {
-		color: #888;
-	}
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-	    background-color: #a46497;
-	    color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-	    color: #515151;
-	}
 }
 
+/*------------------------------------------------------------------------
+# Additional Body Classes
+------------------------------------------------------------------------*/
 .palette-primary.mce-content-body {
 	background: $palette-primary_4;
 	color: $text-contrast-palette-primary_4;

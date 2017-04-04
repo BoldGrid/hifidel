@@ -87,7 +87,6 @@ input[type="submit"]:focus,
 .form-submit .submit:focus,
 .button-secondary:hover,
 .button-secondary:active,
-.woocommerce p.buttons a.button:hover,
 .site-footer a:hover,
 .site-footer a:focus {
 	text-decoration: none;
@@ -143,20 +142,20 @@ input[type="submit"]:focus,
 	display: none;
 }
 .entry-title {
-	position: relative;
-	z-index: 1;
 	display: block;
 	margin: 10px 0 60px 0;
+	position: relative;
+	z-index: 1;
 }
 .entry-title:before {
-	position: absolute;
-	top: .75em;
-	right: 0;
 	bottom: 0;
-	left: 0;
-	z-index: -1;
-	margin: 0 auto;
 	content: "";
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: .75em;
+	z-index: -1;
 }
 .entry-title a {
 	padding: 5px 30px;
@@ -190,10 +189,10 @@ input[type="submit"]:focus,
 .button-primary,
 input[type="submit"],
 .form-submit .submit {
-	margin-top: 30px;
-	margin-bottom: 20px;
-	padding: 8px 40px;
 	border: none;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	padding: 8px 40px;
 }
 .button-secondary {
 	padding: 8px 40px;
@@ -207,10 +206,10 @@ input[type="submit"],
 /* Positioning */
 .p-button-primary,
 .p-button-secondary {
-	margin-top: 40px;
 	margin-bottom: 40px;
-	padding-top: 5px;
+	margin-top: 40px;
 	padding-bottom: 5px;
+	padding-top: 5px;
 }
 .p-button-right {
 	float: none;
@@ -245,27 +244,32 @@ input[type="submit"],
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	height: 2px;
 	border: 0;
+	height: 2px;
 }
 hr:after {
-	position: relative;
 	bottom: 4px;
-	display: block;
-	margin: 0 auto;
-	width: 10px;
-	height: 10px;
 	content: "";
+	display: block;
+	height: 10px;
+	margin: 0 auto;
+	position: relative;
+	width: 10px;
 }
 .well {
-	border: none;
 	background: transparent;
+	border: none;
 	box-shadow: none;
 }
 .widget .table > tbody > tr:nth-of-type(2n+1),
 .nav > li > a:hover,
 .nav > li > a:focus {
 	background: transparent;
+}
+input,
+select,
+textarea {
+	color: #333;
 }
 
 /*------------------------------------------------------------------------
@@ -295,9 +299,9 @@ hr:after {
 ## Main Menu
 -----------------------------------------------*/
 .navbar {
+	background: none;
 	border: none;
 	border-radius: 0;
-	background: none;
 }
 .navbar-default {
 	margin-bottom: 0;
@@ -363,6 +367,7 @@ ul.dropdown-menu {
 .social-menu li {
 	margin: 0 .6em;
 }
+
 /* md */
 @media (min-width: 992px) {
 	.attribution {
@@ -374,18 +379,18 @@ ul.dropdown-menu {
 # GridBlocks
 ------------------------------------------------------------------------*/
 .gridblock li {
+	list-style-type: none;
 	margin-left: -15px;
 	padding-left: 0;
-	list-style-type: none;
 }
 .gridblock li:before {
-	position: relative;
-	bottom: 3px;
-	display: inline-block;
-	margin-right: 8px;
-	width: 4px;
-	height: 4px;
+	bottom: 3px;	
 	content: "";
+	display: inline-block;
+	height: 4px;
+	margin-right: 8px;
+	position: relative;
+	width: 4px;
 }
 
 /*------------------------------------------------------------------------
@@ -405,6 +410,9 @@ blockquote,
 .mod-blockquote p {
 	padding-left: 15px;
 }
+.mod-blockquote p {
+	color: #888;
+}
 
 /* Dividers
  * Deprecated since 2015.12.21
@@ -413,9 +421,9 @@ blockquote,
 	margin-top: 50px;
 }
 .mod-divider-accent {
+	height: 11px;
 	margin: -6px auto 40px;
 	width: 11px;
-	height: 11px;
 }
 
 /*-----------------------------------------------
@@ -439,12 +447,12 @@ blockquote,
 .mod-alpha-1 h4:before,
 .mod-alpha h3:before,
 .mod-alpha-1 h3:before {
-	position: absolute;
-	margin-top: 9px;
-	margin-left: -62px;
-	width: 22px;
-	height: 22px;
 	content: "";
+	height: 22px;
+	margin-left: -62px;
+	margin-top: 9px;
+	position: absolute;
+	width: 22px;
 }
 .mod-alpha h4,
 .mod-alpha-1 h4,
@@ -465,6 +473,7 @@ blockquote,
 .error404 .button-primary {
 	margin: 0;
 }
+
 /* Search Page */
 .search .jumbotron {
 	background: none;
@@ -473,6 +482,7 @@ blockquote,
 .search .button-primary {
 	margin: 0;
 }
+
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
@@ -506,27 +516,25 @@ blockquote,
 .wc-image-links .gallery-caption,
 .wc-gallery-captions-showon .gallery-caption,
 .wc-gallery-captions-onhover .gallery-caption {
-	position: absolute;
-	top: 95px;
-	left: 60px;
-	display: block;
 	background: none;
+	display: block;
+	left: 60px;
+	position: absolute;
+	top: 95px;	
 }
 .wc-gallery .gallery-caption .leader-button button {
-	padding: 10px 45px 15px;
 	border: none;
+	padding: 10px 45px 15px;
 }
 #gallery-2 {
-	margin-top: 1px;
 	margin-bottom: 75px;
+	margin-top: 1px;
 }
 
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-.woocommerce p.buttons a.button:hover {
-	background-image: none;
-}
+
 
 /*------------------------------------------------------------------------
 # Footer
@@ -550,8 +558,8 @@ blockquote,
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
-	padding: 15px 0;
 	height: auto;
+	padding: 15px 0;
 }
 
 /* md */

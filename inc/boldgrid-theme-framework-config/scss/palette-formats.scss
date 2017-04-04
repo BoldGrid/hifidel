@@ -39,11 +39,14 @@
 	}
 	hr::after,
 	.gridblock li::before {
-	    background-color: $palette-primary_1;
+		background-color: $palette-primary_1;
 	}
 	.mod-blockquote,
 	blockquote {
-	    border-left: 3px solid $palette-primary_1;
+		border-left: 3px solid $palette-primary_1;
+	}
+	#reviews #comments ol.commentlist li .comment-text {
+		border: 1px solid $palette-primary_1;
 	}
 
 	/*-----------------------------------------------
@@ -133,7 +136,8 @@
 	.mod-blockquote p,
 	.navbar-default .navbar-nav > li > a,
 	#secondary-menu .current_page_item a[href],
-	.footer-center-menu .current_page_item a[href] {
+	.footer-center-menu .current_page_item a[href],
+	#reviews #comments ol.commentlist li .comment-text p.meta {
 		color: $text-contrast-palette-primary_4;
 	}
 	&.disabled-footer .site-footer,
@@ -247,15 +251,15 @@
 		}
 	}
 
-    #tertiary-menu .current_page_item a[href],
-    #menu-social .current_page_item a[href],
-    #tertiary-menu .menu-item a[href]:hover,
-    #menu-social .menu-item a[href]:hover,
-    #tertiary-menu .menu-item a[href]:focus,
-    #menu-social .menu-item a[href]:focus,
-    .footer-center-menu li:after {
-        color: $palette-primary_2;
-    }
+	#tertiary-menu .current_page_item a[href],
+	#menu-social .current_page_item a[href],
+	#tertiary-menu .menu-item a[href]:hover,
+	#menu-social .menu-item a[href]:hover,
+	#tertiary-menu .menu-item a[href]:focus,
+	#menu-social .menu-item a[href]:focus,
+	.footer-center-menu li:after {
+		color: $palette-primary_2;
+	}
 	#secondary-menu .current_page_item a[href],
 	.footer-center-menu .current_page_item a[href] {
 		color: $palette-primary_4;

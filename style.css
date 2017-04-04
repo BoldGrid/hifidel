@@ -499,6 +499,10 @@ blockquote,
 	float: left;
 	padding-right: 15px;
 }
+.panel {
+	background: transparent;
+	box-shadow: none;
+}
 .panel-default > .panel-heading {
 	border: none;
 }

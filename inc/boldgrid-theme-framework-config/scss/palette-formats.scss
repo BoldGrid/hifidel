@@ -91,6 +91,9 @@
 	.mod-divider {
 		border-top: 2px solid #333;
 	}
+	.attribution-theme-mods .link::after {
+		border-left: 2px solid $text-contrast-palette-primary_2;
+	}		
 
 	/*-----------------------------------------------
 	## 3

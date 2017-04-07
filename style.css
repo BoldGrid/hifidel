@@ -547,11 +547,7 @@ blockquote,
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	padding-bottom: 26px;
-}
-.site-info,
-.site-info a {
-	padding: 25px 0 0;
+	padding: 25px 0;
 }
 .footer-center-menu li.menu-social:after {
 	content: "";
@@ -562,16 +558,12 @@ blockquote,
 .footer-center-items {
 	padding: 0;
 }
+.attribution-theme-mods .link:last-child::after {
+	border: none;
+}
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
 	height: auto;
 	padding: 15px 0;
-}
-
-/* md */
-@media (min-width: 992px) {
-	.attribution {
-		padding-bottom: 0;
-	}
 }

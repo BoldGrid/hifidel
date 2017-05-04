@@ -278,3 +278,9 @@
 	background: $palette-primary_4;
 	color: $text-contrast-palette-primary_4;
 }
+.palette-primary.woocommerce div.product .stock.out-of-stock {
+	color: $palette-primary_1;
+}
+.palette-primary.woocommerce div.product .stock {
+	color: $text-contrast-palette-primary_4;
+}

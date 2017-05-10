@@ -322,6 +322,14 @@ ul.dropdown-menu {
 	background: none;
 }
 
+/* Open */
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+	background: none;
+	border: none; 
+}
+
 /* sm */
 @media (min-width: 768px) {
 	/* Navigation */

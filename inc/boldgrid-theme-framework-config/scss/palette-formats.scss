@@ -34,6 +34,8 @@
 	.mod-alpha h4,
 	.sidebar .nav > li > a:focus,
 	.sidebar .nav > li > a:hover,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus,	
 	.mark,
 	mark {
 		background:	$palette-primary_1;
@@ -158,6 +160,14 @@
 	.site-header .widget.well,
 	.site-header caption {
 		color: $text-contrast-palette-primary_4;
+	}
+	.navbar-default .navbar-toggle .icon-bar,
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+		background-color: $text-contrast-palette-primary_4;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: $text-contrast-palette-primary_4;
 	}
 
 	/*-----------------------------------------------

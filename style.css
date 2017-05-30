@@ -100,7 +100,6 @@ input[type="submit"]:focus,
 .entry-title,
 .heading p,
 .secondary-menu,
-.icon i.fa,
 .site-footer,
 .site-title,
 .site-description,
@@ -173,9 +172,6 @@ input[type="submit"]:focus,
 }
 .heading h3 {
 	margin-top: 10px;
-}
-.icon i.fa {
-	width: 100%;
 }
 
 /* Search Form */

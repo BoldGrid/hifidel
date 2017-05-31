@@ -515,6 +515,15 @@ blockquote,
 /*-----------------------------------------------
 ## WP Canvas Gallery
 -----------------------------------------------*/
+.wc-image-links .gallery-caption,
+.wc-gallery-captions-showon .gallery-caption,
+.wc-gallery-captions-onhover .gallery-caption {
+	background: none;
+	display: block;
+	left: 60px;
+	position: absolute;
+	top: 95px;	
+}
 .wc-gallery .gallery-caption .leader-button button {
 	border: none;
 	padding: 10px 45px 15px;

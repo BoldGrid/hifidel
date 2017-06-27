@@ -546,6 +546,15 @@ blockquote,
 .palette-primary h4.entry-title::before {
 	border-top: none;
 }
+ h2.tribe-events-page-title,
+.tribe-events-schedule h2,
+.tribe-events-meta-group .tribe-events-single-section-title,
+#tribe-events-content .tribe-events-tooltip h4 {
+	font-weight: 400;
+}
+#tribe-events-content .tribe-events-tooltip h4 {
+	font-size: 24px;
+}
 
 /*------------------------------------------------------------------------
 # Footer

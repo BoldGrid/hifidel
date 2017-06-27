@@ -64,13 +64,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .mod-alpha-1 h3,
 .mod-alpha p,
 .mod-alpha-2,
-.site-footer,
-.wc-gallery .gallery-caption .leader-button {
+.site-footer {
 	font-weight: bold;
-}
-.p-button-primary,
-.p-button-secondary {
-	white-space: nowrap;
 }
 a:hover,
 a:focus,
@@ -81,12 +76,8 @@ a:focus,
 }
 .button-primary:hover,
 .button-primary:focus,
-input[type="submit"]:hover,
-input[type="submit"]:focus,
-.form-submit .submit:hover,
-.form-submit .submit:focus,
 .button-secondary:hover,
-.button-secondary:active,
+.button-secondary:focus,
 .site-footer a:hover,
 .site-footer a:focus {
 	text-decoration: none;
@@ -103,7 +94,6 @@ input[type="submit"]:focus,
 .site-footer,
 .site-title,
 .site-description,
-.social-media,
 .navbar-default .navbar-nav > li > a,
 .xs-center,
 .mod-img,
@@ -117,7 +107,6 @@ input[type="submit"]:focus,
 @media (min-width: 768px) {
 	.site-title,
 	.site-description,
-	.social-media,
 	.navbar-default .navbar-nav > li > a {
 		text-align: left;
 	}
@@ -174,17 +163,10 @@ input[type="submit"]:focus,
 	margin-top: 10px;
 }
 
-/* Search Form */
-.form-control {
-	display: inline-block;
-}
-
 /*-----------------------------------------------
 ## Buttons
 -----------------------------------------------*/
-.button-primary,
-input[type="submit"],
-.form-submit .submit {
+.button-primary {
 	border: none;
 	margin-bottom: 20px;
 	margin-top: 30px;
@@ -291,7 +273,6 @@ textarea {
 .navbar {
 	background: none;
 	border: none;
-	border-radius: 0;
 }
 .navbar-default {
 	margin-bottom: 0;
@@ -308,16 +289,11 @@ ul.dropdown-menu {
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-	background: none;
-}
-
-/* Open */
+.navbar-default .navbar-nav > .active > a:focus,
 .nav .open > a,
 .nav .open > a:focus,
 .nav .open > a:hover {
 	background: none;
-	border: none; 
 }
 
 /* sm */
@@ -341,9 +317,6 @@ ul.dropdown-menu {
 /*-----------------------------------------------
 ## Other Menus
 -----------------------------------------------*/
-.tertiary-menu {
-	background: none;
-}
 .secondary-menu li a
 .tertiary-menu li a {
 	padding: 0 10px;
@@ -364,13 +337,6 @@ ul.dropdown-menu {
 }
 .social-menu li {
 	margin: 0 .6em;
-}
-
-/* md */
-@media (min-width: 992px) {
-	.attribution {
-		padding-bottom: 0;
-	}
 }
 
 /*------------------------------------------------------------------------
@@ -407,9 +373,6 @@ ul.dropdown-menu {
 blockquote,
 .mod-blockquote p {
 	padding-left: 15px;
-}
-.mod-blockquote p {
-	color: #888;
 }
 
 /* Dividers
@@ -487,16 +450,8 @@ blockquote,
 .entry-meta {
 	margin-top: 20px;
 }
-.widget-area {
-	margin-top: 25px;
-	padding: 25px;
-}
 
 /* Comments */
-.comment-form-comment label {
-	float: left;
-	padding-right: 15px;
-}
 .panel {
 	background: transparent;
 	box-shadow: none;
@@ -523,10 +478,6 @@ blockquote,
 	left: 60px;
 	position: absolute;
 	top: 95px;	
-}
-.wc-gallery .gallery-caption .leader-button button {
-	border: none;
-	padding: 10px 45px 15px;
 }
 #gallery-2 {
 	margin-bottom: 75px;
@@ -567,9 +518,6 @@ blockquote,
 }
 .footer-center-menu li.menu-social a {
 	padding: 0 8px;
-}
-.footer-center-items {
-	padding: 0;
 }
 .attribution-theme-mods .link:last-child::after {
 	border: none;

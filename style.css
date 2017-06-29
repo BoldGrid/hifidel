@@ -192,11 +192,14 @@ a:focus,
 .p-button-right {
 	float: none;
 }
+.gridblock .p-button-secondary {
+	margin-top: -30px;
+}
 
 /* Block vs. Inline */
 .button-primary,
 .button-secondary {
-	display: inline;
+	display: block;
 	margin-top: 15px;
 }
 
@@ -206,6 +209,9 @@ a:focus,
 	.button-secondary {
 		display: inline;
 		margin-top: 0;
+	}
+	.gridblock .p-button-secondary {
+		margin-top: 15px;
 	}
 	.p-button-right {
 		float: right;

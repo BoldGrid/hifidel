@@ -60,13 +60,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
-.mod-alpha h3,
-.mod-alpha-1 h3,
-.mod-alpha p,
-.mod-alpha-2,
-.site-footer {
-	font-weight: bold;
-}
 a:hover,
 a:focus,
 .site-footer a,

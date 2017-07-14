@@ -175,7 +175,6 @@
 	.footer-center-menu li.menu-social a:focus {
 		color: $palette-primary_1;
 	}
-
 	.dropdown-menu {
 		background: $palette-primary_4;
 	}
@@ -212,9 +211,7 @@
 			}
 		}
 	}
-	
-	/* sm */
-	@media (min-width: 768px) {
+	@media only screen and (min-width: 768px) {
 		.dropdown .active, ul.dropdown-menu {
 			background: $palette-primary_1;
 			color: $text-contrast-palette-primary_1;
@@ -239,7 +236,6 @@
 			}
 		}
 	}
-
 	#tertiary-menu .current_page_item a[href],
 	#menu-social .current_page_item a[href],
 	#tertiary-menu .menu-item a[href]:hover,

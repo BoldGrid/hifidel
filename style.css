@@ -49,8 +49,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-bottom: 20px;
 }
 
-/* lg */
-@media (min-width: 1200px) {
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 	/* Restrict container width */
 	.container {
 		width: 970px;
@@ -96,8 +96,8 @@ a:focus,
 	text-align: center;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.site-title,
 	.site-description,
 	.navbar-default .navbar-nav > li > a {
@@ -105,8 +105,8 @@ a:focus,
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -197,8 +197,8 @@ a:focus,
 	margin-top: 15px;
 }
 
-/* sm */
-@media (min-width: 500px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.button-primary,
 	.button-secondary {
 		display: inline;
@@ -251,13 +251,13 @@ textarea {
 	margin-top: -30px;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .xs-center {
 	margin-top: 15px;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.xs-center {
 		margin-top: 0;
 	}
@@ -283,8 +283,6 @@ textarea {
 ul.dropdown-menu {
 	text-align: center;
 }
-
-/* Hover */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
@@ -296,9 +294,8 @@ ul.dropdown-menu {
 	background: none;
 }
 
-/* sm */
-@media (min-width: 768px) {
-	/* Navigation */
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.navbar-default {
 		float: right;
 	}
@@ -307,8 +304,8 @@ ul.dropdown-menu {
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.navbar-default {
 		margin-right: -15px;
 	}
@@ -393,12 +390,6 @@ blockquote,
 /* Mod-Alpha-1 & Mod-Alpha-2
  * Deprecated since 2015.12.21
  */
-.mod-alpha h3,
-.mod-alpha-1 h3 {
-	float: right;
-	margin: 40px 5px 0;
-	padding: 15px 40px;
-}
 .mod-alpha p,
 .mod-alpha-2 {
 	clear: both;

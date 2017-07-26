@@ -476,7 +476,7 @@ blockquote,
 /*-----------------------------------------------
 ## The Events Calendar
 -----------------------------------------------*/
-.palette-primary h4.entry-title::before {
+.post-type-archive-tribe_events h4.entry-title::before {
 	border-top: none;
 }
  h2.tribe-events-page-title,
